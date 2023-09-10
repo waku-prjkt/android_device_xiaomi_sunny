@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/sunny/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
 PRODUCT_NO_CAMERA := true
 
 # Device identifier. This must come after all inclusions.
